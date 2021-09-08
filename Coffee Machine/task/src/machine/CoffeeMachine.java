@@ -99,7 +99,7 @@ public class CoffeeMachine {
     /** Method for buying a coffee */
     private static void buy() {
         System.out.println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, 4 - back - to main menu: ");
-        String buy = scanner.next().toUpperCase();
+        String buy = scanner.next().toLowerCase();
         switch (buy) {
             case "1":
             case "espresso":
